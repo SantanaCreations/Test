@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  testwebapplication:
+    image: ${DOCKER_REGISTRY}testwebapplication
+    build:
+      context: .\TestWebApplication
+      dockerfile: Dockerfile
